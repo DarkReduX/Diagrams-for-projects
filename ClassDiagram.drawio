@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2020-11-03T05:26:12.259Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 YaBrowser/20.9.3.126 Yowser/2.5 Safari/537.36" version="13.8.8" etag="lbKhtl0s5JQp5DeZDCBt" type="github"><diagram id="Sbx0GXn4tXm3XvbkGRji">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-03T05:40:51.561Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 YaBrowser/20.9.3.126 Yowser/2.5 Safari/537.36" etag="nB4RHyCjPg-RmnwVf3VF" version="13.8.8" type="github">
+  <diagram id="Sbx0GXn4tXm3XvbkGRji" name="Page-1">
+    <mxGraphModel dx="825" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Md9Q1ksKVu-VzgbBf-Te-3" value="EmailService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Md9Q1ksKVu-VzgbBf-Te-5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Md9Q1ksKVu-VzgbBf-Te-3">
+          <mxGeometry y="26" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Md9Q1ksKVu-VzgbBf-Te-6" value="+ SendAsync(IdentityMessage): Task&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Md9Q1ksKVu-VzgbBf-Te-3">
+          <mxGeometry y="34" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Md9Q1ksKVu-VzgbBf-Te-7" value="SmsService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="140" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Md9Q1ksKVu-VzgbBf-Te-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Md9Q1ksKVu-VzgbBf-Te-7">
+          <mxGeometry y="26" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Md9Q1ksKVu-VzgbBf-Te-9" value="+ SendAsync(IdentityMessage): Task&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Md9Q1ksKVu-VzgbBf-Te-7">
+          <mxGeometry y="34" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Md9Q1ksKVu-VzgbBf-Te-10" value="ApplicationUserManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="220" width="590" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Md9Q1ksKVu-VzgbBf-Te-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Md9Q1ksKVu-VzgbBf-Te-10">
+          <mxGeometry y="26" width="590" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Md9Q1ksKVu-VzgbBf-Te-12" value="+ ApplicationUserManager(IUserStore&lt;ApplicationUser&gt;): &#xa;+ Create(IdentityFactoryOptions&lt;ApplicationUserManager&gt;, IOwinContext) ApplicationUserManager" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Md9Q1ksKVu-VzgbBf-Te-10">
+          <mxGeometry y="34" width="590" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="Md9Q1ksKVu-VzgbBf-Te-14" value="ApplicationSignInManagere" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="420" width="580" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Md9Q1ksKVu-VzgbBf-Te-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Md9Q1ksKVu-VzgbBf-Te-14">
+          <mxGeometry y="26" width="580" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Md9Q1ksKVu-VzgbBf-Te-17" value="+ ApplicationSignInManager(ApplicationUserManager,IAuthenticationManager)&#xa;+ CreateUserIdentityAsync(ApplicationUser): Task&lt;ClaimsIdentity&gt;&#xa;+ Create(IdentityFactoryOptions&lt;ApplicationSignInManager&gt;, IOwinContext): ApplicationSignInManager" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Md9Q1ksKVu-VzgbBf-Te-14">
+          <mxGeometry y="34" width="580" height="166" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
