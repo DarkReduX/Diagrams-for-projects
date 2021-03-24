@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-24T07:29:07.793Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 YaBrowser/21.2.4.165 Yowser/2.5 Safari/537.36" etag="UqC0S1JB2dVEHGlU7xLK" version="14.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-24T07:35:13.702Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 YaBrowser/21.2.4.165 Yowser/2.5 Safari/537.36" etag="08MyQvgiJXoBnFxioejd" version="14.4.6" type="github">
   <diagram id="AmMkg5M9YSYuQsAp2ahu" name="Page-1">
-    <mxGraphModel dx="1613" dy="1632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1777" dy="1729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -97,14 +97,14 @@
         <mxCell id="p4dsRJ2isNpYm6C_EEN1-33" value="Сменить пароль" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-90" y="-70" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="p4dsRJ2isNpYm6C_EEN1-34" value="Extends" style="endArrow=open;endSize=16;endFill=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" target="p4dsRJ2isNpYm6C_EEN1-6">
+        <mxCell id="p4dsRJ2isNpYm6C_EEN1-34" value="Extends" style="endArrow=open;endSize=16;endFill=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="p4dsRJ2isNpYm6C_EEN1-35" target="p4dsRJ2isNpYm6C_EEN1-6">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="200" y="-110" as="sourcePoint" />
             <mxPoint x="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="p4dsRJ2isNpYm6C_EEN1-35" value="Восстанновить пароль" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="-190" width="120" height="80" as="geometry" />
+          <mxGeometry x="40" y="-190" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="p4dsRJ2isNpYm6C_EEN1-36" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="1120" y="300" width="30" height="60" as="geometry" />
@@ -130,7 +130,7 @@
         <mxCell id="p4dsRJ2isNpYm6C_EEN1-41" value="Регистрация" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1240" y="-10" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="p4dsRJ2isNpYm6C_EEN1-42" value="Include" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="p4dsRJ2isNpYm6C_EEN1-37" target="p4dsRJ2isNpYm6C_EEN1-41">
+        <mxCell id="p4dsRJ2isNpYm6C_EEN1-42" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;Include&lt;/span&gt;&#xa;&#xa;" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="p4dsRJ2isNpYm6C_EEN1-37" target="p4dsRJ2isNpYm6C_EEN1-41">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1420" y="280" as="sourcePoint" />
             <mxPoint x="1580" y="280" as="targetPoint" />
@@ -199,14 +199,14 @@
         <mxCell id="p4dsRJ2isNpYm6C_EEN1-56" value="Сменить пароль" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="930" y="-70" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="p4dsRJ2isNpYm6C_EEN1-57" value="Extends" style="endArrow=open;endSize=16;endFill=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" target="p4dsRJ2isNpYm6C_EEN1-41">
+        <mxCell id="p4dsRJ2isNpYm6C_EEN1-57" value="Extends" style="endArrow=open;endSize=16;endFill=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="p4dsRJ2isNpYm6C_EEN1-41" source="p4dsRJ2isNpYm6C_EEN1-58">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1220" y="-110" as="sourcePoint" />
             <mxPoint x="1310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="p4dsRJ2isNpYm6C_EEN1-58" value="Восстанновить пароль" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1140" y="-190" width="120" height="80" as="geometry" />
+          <mxGeometry x="1075" y="-160" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="p4dsRJ2isNpYm6C_EEN1-59" value="Редактирование прогноза" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1570" y="-200" width="120" height="80" as="geometry" />
@@ -226,7 +226,7 @@
             <mxPoint x="1510" y="-80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p4dsRJ2isNpYm6C_EEN1-65" value="Просмотр шапки сайт" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="p4dsRJ2isNpYm6C_EEN1-65" value="Просмотр шапки сайта" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1450" y="440" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="p4dsRJ2isNpYm6C_EEN1-66" value="Extends" style="endArrow=open;endSize=16;endFill=0;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="p4dsRJ2isNpYm6C_EEN1-65" target="p4dsRJ2isNpYm6C_EEN1-37">
@@ -251,6 +251,18 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="310" y="450" as="sourcePoint" />
             <mxPoint x="330" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p4dsRJ2isNpYm6C_EEN1-72" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;Include&lt;/span&gt;&#xa;&#xa;" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.958;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="p4dsRJ2isNpYm6C_EEN1-58" target="p4dsRJ2isNpYm6C_EEN1-44">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1370" y="309.9999999999998" as="sourcePoint" />
+            <mxPoint x="1310" y="79.99999999999977" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p4dsRJ2isNpYm6C_EEN1-73" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;Include&lt;/span&gt;&#xa;&#xa;" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p4dsRJ2isNpYm6C_EEN1-35" target="p4dsRJ2isNpYm6C_EEN1-20">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="250" y="-110.00000000000023" as="sourcePoint" />
+            <mxPoint x="190" y="-340.0000000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
