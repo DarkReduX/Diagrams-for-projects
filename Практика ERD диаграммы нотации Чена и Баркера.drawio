@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-28T09:02:27.079Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 YaBrowser/21.5.1.330 Yowser/2.5 Safari/537.36" etag="ZAxw8O-uiRH-I3pOI2sa" version="14.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-28T09:11:43.601Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 YaBrowser/21.5.1.330 Yowser/2.5 Safari/537.36" etag="dHUV5HPykPVY4W7P74yB" version="14.7.2" type="github">
   <diagram id="03FjcUnf6Z8f4p4BtVnu" name="Page-1">
-    <mxGraphModel dx="1155" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1925" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -121,20 +121,20 @@
             <mxPoint x="980" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qCNo12KEY4N09CPlPDrK-52" value="&lt;font style=&quot;font-size: 20px&quot;&gt;#Id&lt;br&gt;*Кол-во команд&lt;br&gt;*Название&lt;br&gt;*Призовой фонд&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="90" y="1040" width="210" height="210" as="geometry" />
+        <mxCell id="qCNo12KEY4N09CPlPDrK-52" value="&lt;font style=&quot;font-size: 20px&quot;&gt;#MatchInfoId&lt;br&gt;*Счет&lt;br&gt;*Id победителя&lt;br&gt;*Id проигравшего&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="650" y="1370" width="210" height="210" as="geometry" />
         </mxCell>
         <mxCell id="qCNo12KEY4N09CPlPDrK-53" value="" style="endArrow=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="qCNo12KEY4N09CPlPDrK-52" target="qCNo12KEY4N09CPlPDrK-52" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="170" y="1170" as="sourcePoint" />
-            <mxPoint x="220" y="1120" as="targetPoint" />
+            <mxPoint x="740" y="1500" as="sourcePoint" />
+            <mxPoint x="790" y="1450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qCNo12KEY4N09CPlPDrK-54" value="&lt;span style=&quot;font-size: 20px&quot;&gt;Турнир&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="90" y="1040" width="210" height="50" as="geometry" />
+        <mxCell id="qCNo12KEY4N09CPlPDrK-54" value="&lt;span style=&quot;font-size: 20px&quot;&gt;Результат матча&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="660" y="1370" width="210" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="qCNo12KEY4N09CPlPDrK-56" value="&lt;font style=&quot;font-size: 20px&quot;&gt;#Id&lt;br&gt;*Доля турнира&lt;br&gt;*Лучший из&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="450" y="1030" width="210" height="210" as="geometry" />
+        <mxCell id="qCNo12KEY4N09CPlPDrK-56" value="&lt;font style=&quot;font-size: 20px&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;#Id&lt;br&gt;*Название турнира&lt;br&gt;&lt;div&gt;&lt;span&gt;*Время начала&lt;/span&gt;&lt;/div&gt;*Url матча&lt;br&gt;*Url логотипа&lt;br&gt;*Id предполагаемого победителя&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="450" y="1030" width="210" height="250" as="geometry" />
         </mxCell>
         <mxCell id="qCNo12KEY4N09CPlPDrK-57" value="" style="endArrow=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="qCNo12KEY4N09CPlPDrK-56" target="qCNo12KEY4N09CPlPDrK-56" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -144,12 +144,6 @@
         </mxCell>
         <mxCell id="qCNo12KEY4N09CPlPDrK-58" value="&lt;span style=&quot;font-size: 20px&quot;&gt;Матч&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="450" y="1030" width="210" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="qCNo12KEY4N09CPlPDrK-59" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="qCNo12KEY4N09CPlPDrK-52" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="340" y="1145" as="sourcePoint" />
-            <mxPoint x="450.0000000000002" y="1145" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="qCNo12KEY4N09CPlPDrK-60" value="" style="endArrow=none;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -163,7 +157,7 @@
             <mxPoint x="450.0000000000002" y="1160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qCNo12KEY4N09CPlPDrK-62" value="&lt;font style=&quot;font-size: 20px&quot;&gt;#Id&lt;br&gt;*Название&lt;br&gt;*Рейтинг&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="qCNo12KEY4N09CPlPDrK-62" value="&lt;font style=&quot;font-size: 20px&quot;&gt;#Id&lt;br&gt;*Url логотипа&lt;br&gt;*Название&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="770" y="1030" width="210" height="210" as="geometry" />
         </mxCell>
         <mxCell id="qCNo12KEY4N09CPlPDrK-63" value="" style="endArrow=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="qCNo12KEY4N09CPlPDrK-62" target="qCNo12KEY4N09CPlPDrK-62" edge="1">
@@ -172,7 +166,7 @@
             <mxPoint x="900" y="1110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qCNo12KEY4N09CPlPDrK-64" value="&lt;span style=&quot;font-size: 20px&quot;&gt;Команды&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="qCNo12KEY4N09CPlPDrK-64" value="&lt;span style=&quot;font-size: 20px&quot;&gt;Команда&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="770" y="1030" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="qCNo12KEY4N09CPlPDrK-65" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
@@ -205,11 +199,8 @@
             <mxPoint x="660" y="1150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qCNo12KEY4N09CPlPDrK-70" value="&lt;font style=&quot;font-size: 20px&quot;&gt;#Id&lt;br&gt;*Доля турнира&lt;br&gt;*Лучший из&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="750" y="1725" width="210" height="210" as="geometry" />
-        </mxCell>
-        <mxCell id="qCNo12KEY4N09CPlPDrK-77" value="&lt;font style=&quot;font-size: 20px&quot;&gt;#Id&lt;br&gt;*Имя&lt;br&gt;*Рейтинг&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1110" y="1020" width="210" height="210" as="geometry" />
+        <mxCell id="qCNo12KEY4N09CPlPDrK-77" value="&lt;font style=&quot;font-size: 20px&quot;&gt;#Id&lt;br&gt;*Процент побед&lt;br&gt;*Кол-во сыгранных карт&lt;br&gt;*Название карты&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="990" width="210" height="240" as="geometry" />
         </mxCell>
         <mxCell id="qCNo12KEY4N09CPlPDrK-78" value="" style="endArrow=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="qCNo12KEY4N09CPlPDrK-77" target="qCNo12KEY4N09CPlPDrK-77" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -218,7 +209,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qCNo12KEY4N09CPlPDrK-79" value="&lt;span style=&quot;font-size: 20px&quot;&gt;Игроки&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1110" y="1020" width="210" height="50" as="geometry" />
+          <mxGeometry x="1110" y="1000" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="qCNo12KEY4N09CPlPDrK-80" value="" style="endArrow=none;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -238,55 +229,10 @@
             <mxPoint x="1110" y="1135" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qCNo12KEY4N09CPlPDrK-83" value="&lt;font style=&quot;font-size: 20px&quot;&gt;#Id&lt;br&gt;*Логин&lt;br&gt;*Пароль&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="460" y="1340" width="210" height="210" as="geometry" />
-        </mxCell>
-        <mxCell id="qCNo12KEY4N09CPlPDrK-84" value="" style="endArrow=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="qCNo12KEY4N09CPlPDrK-83" target="qCNo12KEY4N09CPlPDrK-83" edge="1">
+        <mxCell id="qCNo12KEY4N09CPlPDrK-90" value="" style="endArrow=none;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="540" y="1470" as="sourcePoint" />
-            <mxPoint x="590" y="1420" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qCNo12KEY4N09CPlPDrK-85" value="&lt;span style=&quot;font-size: 20px&quot;&gt;Пользователь&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="460" y="1340" width="210" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="qCNo12KEY4N09CPlPDrK-86" value="&lt;font style=&quot;font-size: 20px&quot;&gt;#Id&lt;br&gt;*Доля турнира&lt;br&gt;*Лучший из&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="760" y="2035" width="210" height="210" as="geometry" />
-        </mxCell>
-        <mxCell id="qCNo12KEY4N09CPlPDrK-87" value="&lt;font style=&quot;font-size: 20px&quot;&gt;#Id&lt;br&gt;*соотношение побед поражений&lt;br&gt;*прибыль/убыток&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="460" y="1649" width="210" height="210" as="geometry" />
-        </mxCell>
-        <mxCell id="qCNo12KEY4N09CPlPDrK-88" value="" style="endArrow=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="qCNo12KEY4N09CPlPDrK-87" target="qCNo12KEY4N09CPlPDrK-87" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="540" y="1779" as="sourcePoint" />
-            <mxPoint x="590" y="1729" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qCNo12KEY4N09CPlPDrK-89" value="&lt;span style=&quot;font-size: 20px&quot;&gt;Стата&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="460" y="1649" width="210" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="qCNo12KEY4N09CPlPDrK-90" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="1340" as="sourcePoint" />
-            <mxPoint x="560" y="1240" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qCNo12KEY4N09CPlPDrK-91" value="" style="endArrow=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="530" y="1240" as="sourcePoint" />
-            <mxPoint x="560" y="1290" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qCNo12KEY4N09CPlPDrK-92" value="" style="endArrow=none;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="1290" as="sourcePoint" />
-            <mxPoint x="590" y="1240" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qCNo12KEY4N09CPlPDrK-93" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="qCNo12KEY4N09CPlPDrK-89" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="570" y="1660" as="sourcePoint" />
-            <mxPoint x="560" y="1550" as="targetPoint" />
+            <mxPoint x="560" y="1480" as="sourcePoint" />
+            <mxPoint x="560" y="1280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qCNo12KEY4N09CPlPDrK-104" value="&lt;u&gt;Id&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -432,6 +378,54 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="424.76" y="668.02" as="sourcePoint" />
             <mxPoint x="440" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWUeWFANW_-Ra9KqFna5-8" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="qCNo12KEY4N09CPlPDrK-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="1480" as="sourcePoint" />
+            <mxPoint x="570" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWUeWFANW_-Ra9KqFna5-9" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="874" y="1330" as="sourcePoint" />
+            <mxPoint x="874.1700000000001" y="1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWUeWFANW_-Ra9KqFna5-10" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="875" y="1330" as="sourcePoint" />
+            <mxPoint x="750" y="1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWUeWFANW_-Ra9KqFna5-11" value="" style="endArrow=none;html=1;entryX=0.432;entryY=0.018;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="qCNo12KEY4N09CPlPDrK-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="1330" as="sourcePoint" />
+            <mxPoint x="760" y="1340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWUeWFANW_-Ra9KqFna5-12" value="" style="endArrow=none;html=1;entryX=0.377;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="qCNo12KEY4N09CPlPDrK-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="1340" as="sourcePoint" />
+            <mxPoint x="740.7199999999999" y="1380.9" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWUeWFANW_-Ra9KqFna5-13" value="" style="endArrow=none;html=1;entryX=0.477;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="qCNo12KEY4N09CPlPDrK-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="1341" as="sourcePoint" />
+            <mxPoint x="749.17" y="1380.3500000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWUeWFANW_-Ra9KqFna5-14" value="" style="endArrow=none;html=1;exitX=0.435;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="qCNo12KEY4N09CPlPDrK-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="885" y="1340" as="sourcePoint" />
+            <mxPoint x="875" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWUeWFANW_-Ra9KqFna5-15" value="" style="endArrow=none;html=1;exitX=0.567;exitY=1.003;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="qCNo12KEY4N09CPlPDrK-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="871.3499999999999" y="1250" as="sourcePoint" />
+            <mxPoint x="875" y="1270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
