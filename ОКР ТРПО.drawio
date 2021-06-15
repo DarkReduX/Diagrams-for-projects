@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-15T05:39:38.282Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="u41K-ixxyz25VJ8mJ-OU" version="14.7.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-15T05:45:18.291Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="re2m-FklmbjYyLA4MI-m" version="14.7.8" type="github" pages="2">
   <diagram id="7PRStfoKHMYqZS4BXg-o" name="Page-1">
     <mxGraphModel dx="1865" dy="1754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -89,7 +89,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IZnVJReFb6FwB4K-2uF8-3" value="Подключение к терминалу" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="130" width="120" height="80" as="geometry" />
+          <mxGeometry x="470" y="40" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IZnVJReFb6FwB4K-2uF8-4" value="Extends" style="endArrow=open;endSize=16;endFill=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="IZnVJReFb6FwB4K-2uF8-3">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -98,13 +98,31 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IZnVJReFb6FwB4K-2uF8-5" value="Запрос талона через терминал и его печать" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="250" width="120" height="80" as="geometry" />
+          <mxGeometry x="520" y="160" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IZnVJReFb6FwB4K-2uF8-7" value="Extends" style="endArrow=open;endSize=16;endFill=0;html=1;exitX=0.333;exitY=0;exitDx=0;exitDy=0;dashed=1;exitPerimeter=0;" edge="1" parent="1" source="IZnVJReFb6FwB4K-2uF8-5" target="IZnVJReFb6FwB4K-2uF8-3">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="610" y="210" as="sourcePoint" />
-            <mxPoint x="500" y="220" as="targetPoint" />
+            <mxPoint x="550" y="120" as="sourcePoint" />
+            <mxPoint x="440" y="130" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="tbmHXDbxvcMJxIwS9Pfz-1" value="Регистрация нового пациента в БД" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tbmHXDbxvcMJxIwS9Pfz-3" value="Include" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AwdpcZapUi808MqYRnDw-3" target="tbmHXDbxvcMJxIwS9Pfz-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="340.9619407771256" y="313.180194846605" as="sourcePoint" />
+            <mxPoint x="397.57359312880726" y="258.2842712474619" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbmHXDbxvcMJxIwS9Pfz-4" value="Include" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="AwdpcZapUi808MqYRnDw-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="360" y="345" as="sourcePoint" />
+            <mxPoint x="400" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tbmHXDbxvcMJxIwS9Pfz-5" value="Отправить при переводе пациента данные в другую клинику" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="350" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -114,17 +132,29 @@
       <root>
         <mxCell id="XdsVn_3tybLZgV9FLbHw-0" />
         <mxCell id="XdsVn_3tybLZgV9FLbHw-1" parent="XdsVn_3tybLZgV9FLbHw-0" />
-        <mxCell id="XdsVn_3tybLZgV9FLbHw-2" value="ApplicationDbContext" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=none;" vertex="1" parent="XdsVn_3tybLZgV9FLbHw-1">
-          <mxGeometry x="117.85" y="640" width="190" height="130" as="geometry" />
+        <mxCell id="XdsVn_3tybLZgV9FLbHw-2" value="UserOpt" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=none;" vertex="1" parent="XdsVn_3tybLZgV9FLbHw-1">
+          <mxGeometry x="240" y="680" width="220" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="XdsVn_3tybLZgV9FLbHw-3" value="+ news : DbSet&lt;News&gt;&#xa;+ Ips: DbSet&lt;Ip&gt;&#xa;+ Votes: DbSet&lt;Vote&gt;&#xa;+Commnets: DbSet&lt;Comment&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="XdsVn_3tybLZgV9FLbHw-2">
-          <mxGeometry y="26" width="190" height="74" as="geometry" />
+        <mxCell id="XdsVn_3tybLZgV9FLbHw-3" value="- db: ApplicationDbContext" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="XdsVn_3tybLZgV9FLbHw-2">
+          <mxGeometry y="26" width="220" height="34" as="geometry" />
         </mxCell>
         <mxCell id="XdsVn_3tybLZgV9FLbHw-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="XdsVn_3tybLZgV9FLbHw-2">
-          <mxGeometry y="100" width="190" height="10" as="geometry" />
+          <mxGeometry y="60" width="220" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="XdsVn_3tybLZgV9FLbHw-5" value="+ Create(): ApplicatonDbContext" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="XdsVn_3tybLZgV9FLbHw-2">
-          <mxGeometry y="110" width="190" height="20" as="geometry" />
+        <mxCell id="XdsVn_3tybLZgV9FLbHw-5" value="+ LoginUser() :Task&lt;br&gt;+ RegisterPatientToDoc(): Task&lt;br&gt;+ AddPatientToDb() : Task" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="XdsVn_3tybLZgV9FLbHw-2">
+          <mxGeometry y="70" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QkFSYOFrqRxQQUCtCvnv-0" value="StartupApp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=none;" vertex="1" parent="XdsVn_3tybLZgV9FLbHw-1">
+          <mxGeometry y="670" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QkFSYOFrqRxQQUCtCvnv-1" value="- db: ApplicationDbContext" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QkFSYOFrqRxQQUCtCvnv-0">
+          <mxGeometry y="26" width="220" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="QkFSYOFrqRxQQUCtCvnv-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="QkFSYOFrqRxQQUCtCvnv-0">
+          <mxGeometry y="60" width="220" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="QkFSYOFrqRxQQUCtCvnv-3" value="+ InitializeDbFromConfig(byte[]): Task&lt;br&gt;+ ConnectToTerminal(string): Task" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="QkFSYOFrqRxQQUCtCvnv-0">
+          <mxGeometry y="70" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
