@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-15T06:37:05.269Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="qfyjSwxudxxNBS-AfeEP" version="14.7.8" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-06-15T22:07:22.080Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="bCbBIiCqycdslg8YoE7E" version="14.7.8" type="github" pages="6">
   <diagram id="7PRStfoKHMYqZS4BXg-o" name="Page-1">
     <mxGraphModel dx="1865" dy="1754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1409,6 +1409,45 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="84.5" y="290" as="sourcePoint" />
             <mxPoint x="84.5" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pHVNG7HrOWHOZHgrPjhi-16" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="pHVNG7HrOWHOZHgrPjhi-1" source="pHVNG7HrOWHOZHgrPjhi-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="180" as="sourcePoint" />
+            <mxPoint x="260" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pHVNG7HrOWHOZHgrPjhi-17" value="Заболел" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pHVNG7HrOWHOZHgrPjhi-16">
+          <mxGeometry x="-0.4857" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pHVNG7HrOWHOZHgrPjhi-20" value="Больной" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="pHVNG7HrOWHOZHgrPjhi-1">
+          <mxGeometry x="250" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pHVNG7HrOWHOZHgrPjhi-22" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="pHVNG7HrOWHOZHgrPjhi-1" source="pHVNG7HrOWHOZHgrPjhi-20" target="pHVNG7HrOWHOZHgrPjhi-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="94.5" y="210" as="sourcePoint" />
+            <mxPoint x="240" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pHVNG7HrOWHOZHgrPjhi-23" value="Запись к врачу" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pHVNG7HrOWHOZHgrPjhi-22">
+          <mxGeometry x="-0.4857" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pHVNG7HrOWHOZHgrPjhi-24" value="Здоров" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="pHVNG7HrOWHOZHgrPjhi-1">
+          <mxGeometry x="230" y="290" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pHVNG7HrOWHOZHgrPjhi-26" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="pHVNG7HrOWHOZHgrPjhi-1" source="pHVNG7HrOWHOZHgrPjhi-12" target="pHVNG7HrOWHOZHgrPjhi-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="242.5" as="sourcePoint" />
+            <mxPoint x="150" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pHVNG7HrOWHOZHgrPjhi-27" value="Вылечился" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pHVNG7HrOWHOZHgrPjhi-26">
+          <mxGeometry x="-0.4857" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
